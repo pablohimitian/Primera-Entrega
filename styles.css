@@ -5,19 +5,23 @@
  }
 
 .header {
-  display:flex;
+  display:flex; 
   max-height: 30vh; 
   color: white;
-  background-color: black
+  background-color: black;
+  align-content:stretch ;
+  
 }
 .navbar-expand-lgr{
   background-color: black;
 }
 .h1{
-  font: size 10vh;
-;
+  padding-top: 10vh;
+  font-size: 5vh;
   color: white;
+  overflow: auto;
 }
+
 .maincaru{
   border-radius: 10px;  
 }
@@ -31,25 +35,29 @@
   height: 10%;
 }
 .logo{
-max-width: max-content;
-  
+ max-height: fit-content;
+  max-width: fit-content;
   }
-.h2{
+.sec-h{
   padding: 10px;
   text-align: center;
+  font-size: 10vh;
 }
 .carousel-item{
   padding: 10px;
   }
-.muestras{
+.muestras img{
   height: 60vh;
-  padding: 10px;
-  box-shadow: 5, 5, 10, black;
-  border-radius: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black
+  
 }
+
 .letfont {
-  color: black;
-font-size: 10vh;
+color: black;
+font-size: 5vh;
+background-color: white; 
 }
 .card-body{
   background-color: black;
@@ -76,13 +84,18 @@ font-size: 10vh;
 .imgtop{
   border-radius: 20px;
 }
+.txt-mision{
+  padding-top: 5vw;
+  padding-right: 30vw;
+  text-align: center;
+}
 .imgmision{
   display: flex;
-  max-width: 50vh;
-  height: 50vh;
   margin: 10px;
-  border-radius: 5px;
-  box-shadow: 5 5 10 black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  align-items: center;
+  
 }
 .registro{
   height: 120vh;
