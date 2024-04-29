@@ -54,8 +54,7 @@
  }
  .instagram-media{
   height: 70vh;
-  margin: 10px;
-  
+  margin: 10px;  
  }
 
 .letfont {
@@ -78,7 +77,7 @@ background-color: white;
   background-color: darkgrey;
   font-size: xx-large;
 }
-.titulo2{
+.titulo2{ 
   display: flex;
 }
 .logo2{
