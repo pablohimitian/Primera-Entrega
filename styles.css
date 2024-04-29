@@ -1,8 +1,8 @@
 .backmain{
   background-color: darkgray;
   font-weight: bolder;
-  font-family: 'fjalla one'
- }
+  font-family: 'fjalla one';
+   }
 
 .header {
   display:flex; 
@@ -45,13 +45,13 @@
 .carousel-item{
   padding: 10px;
   }
+ 
 .muestras img{
   height: 60vh;
   margin: 10px;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px black
-  
-}
+  box-shadow: 5px 5px 10px black;
+ }
 
 .letfont {
 color: black;
